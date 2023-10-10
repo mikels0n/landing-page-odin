@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    background: #1F2937;
+    margin: 0;
+    padding: 16px;
+    flex: 1;
+    gap: 20px;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
