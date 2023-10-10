@@ -41,10 +41,15 @@ a {
     justify-content: center;
 }
 
-.pictures {
+.white {
     background: #f9faf8;
     flex-direction: column;
     align-items: center;
+}
+
+.quote {
+    background: #e5e7eb;
+    flex-direction: column;
 }
 
 .caption-left {
@@ -121,4 +126,17 @@ button {
     text-align: center;
     margin-top: 10px;
     color: lightslategray;
+}
+
+em {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: center;
+}
+
+.sign {
+    margin-top: 10px;
+    text-align: end;
+    font-weight: 700;
 }
