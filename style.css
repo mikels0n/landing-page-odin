@@ -31,14 +31,20 @@ a {
     font-size: 18px;
 }
 
-.caption {
+.content {
     display: flex;
     background: #1F2937;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
     justify-content: center;
+}
+
+.pictures {
+    background: #f9faf8;
+    flex-direction: column;
+    align-items: center;
 }
 
 .caption-left {
@@ -80,4 +86,39 @@ button {
     border: none;
     font-size: 20px;
     font-weight: bold;
+}
+
+.heading-pics {
+    font-size: 36px;
+    font-weight: 900;
+    color: 1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+.card {
+    width: 200px;
+}
+
+.square {
+    border: 6px #3882F6;
+    border-style: solid;
+    border-radius: 30px;
+    width: 180px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.des {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: lightslategray;
 }
