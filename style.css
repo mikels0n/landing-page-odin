@@ -11,11 +11,14 @@ body {
     background: #1F2937;
     margin: 0;
     padding: 16px;
-    gap: 20px;
+    justify-content: center;
+}
+
+.hf-cont {
+    display: flex;
     align-items: center;
-    padding-left: 15%;
-    padding-right: 15%;
-    flex-shrink: 0;
+    width: 1100px;
+    gap: 30px;
 }
 
 .logo {
@@ -23,12 +26,14 @@ body {
     color: #f9faf8;
     margin-right: auto;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    flex-shrink: 0;
 }
 
 .content {
